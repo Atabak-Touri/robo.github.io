@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Team</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f4f7fa;
+            color: #222;
+        }
+        header {
+            background: #232f3e;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        .hero {
+            background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
+            color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            background: #fff;
+            color: #005bea;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #e0e7ef;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+            padding: 2rem;
+        }
+        section h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #005bea;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .member {
+            background: #f4f7fa;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 180px;
+            text-align: center;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+        }
+        .member img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background: #232f3e;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            font-size: 0.95rem;
+        }
+        @media (max-width: 600px) {
+            section {
+                padding: 1rem;
+            }
+            .team {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Robotics Team</h1>
+    </header>
+    <div class="hero">
+        <h2>Welcome to Our Robotics Team!</h2>
+        <p>Innovating the future, one robot at a time. Join us as we build, learn, and compete together.</p>
+        <button class="btn">Learn More</button>
+    </div>
+    <section>
+        <h3>About Us</h3>
+        <p>
+            We are a passionate group of students dedicated to exploring robotics and technology. Our team participates in competitions, hosts workshops, and collaborates on exciting projects. Whether you're a beginner or an expert, there's a place for you here!
+        </p>
+    </section>
+    <section>
+        <h3>Meet the Team</h3>
+        <div class="team">
+            <div class="member">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team Member">
+                <strong>Alex</strong>
+                <div>Team Captain</div>
+            </div>
+            <div class="member">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Team Member">
+                <strong>Jamie</strong>
+                <div>Lead Programmer</div>
+            </div>
+            <div class="member">
+                <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Team Member">
+                <strong>Chris</strong>
+                <div>Mechanical Engineer</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Robotics Team. All rights reserved.
+    </footer>
+</body>
+</html>
